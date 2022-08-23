@@ -1,0 +1,75 @@
+ :root {
+ --White: hsl(0, 0%, 100%);
+ --Light-gray: hsl(212, 45%, 89%);
+ --Grayish-blue: hsl(220, 15%, 55%);
+ --Dark-blue: hsl(218, 44%, 22%);
+ }
+
+ @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ body {
+     background-color: var(--Light-gray);
+     font-family: 'Inherit' sans-serif;
+     font-size: 15px;
+     display: flex;
+     align-items: center;
+     height: 100vh;
+     justify-content: center;
+     flex-direction: column;
+ }
+
+ .container {
+     max-width: 350px;
+     margin: auto auto;
+ }
+.image {
+    background-color: var(--White);
+    padding: 15px;
+    margin: 15px;
+    border-radius: 20px;
+    margin-bottom: 1rem;
+}
+.image img {
+    width: 100%;
+    border-radius: 16px;
+    max-height: 18rem;
+    max-width: 18rem;
+}
+.tank {
+    text-align: center;
+    padding: 0 10px;
+}
+
+.tank h1 {
+    color: var(--Dark-blue);
+    font-size: 1.2rem;
+    font-family: 'Inherit' sans-serif;
+    font-weight: 600;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.tank p {
+    color: var(--Grayish-blue);
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Inherit' sans-serif;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+ }
+
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+    }
